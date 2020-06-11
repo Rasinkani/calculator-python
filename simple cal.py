@@ -32,5 +32,10 @@ while True:
         num2 = float(input("Enter another number: "))
         result = str(num1 / num2)
         print("Answer : "+ result)
+    elif u_input == "mod":
+        num1 = float(input("Enter a number: "))
+        num2 = float(input("Enter another number: "))
+        result = str(num1 % num2)
+        print("Answer : "+ result)
     else:
         print("try again !")
